@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Playing Chess",
+        "range": "15 year - 18 Year",
+        "duration": 30,
+        "img": "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2018/04/chess-featured-smartprix.jpg?fit=1200%2C630&ssl=1"
+    },
+    {
+        "id": 2,
+        "name": "Playing Cards",
+        "range": "15 year - 18 Year",
+        "duration": 30,
+        "img": "https://media.istockphoto.com/photos/casino-poker-backjack-baccarat-set-cards-3d-rendering-illustration-picture-id1326423348?b=1&k=20&m=1326423348&s=170667a&w=0&h=NcLBrw5Tab_hS7FqKgDBfAglMPElIfbX3wTAdGA4v1w="
+    },
+    {
+        "id": 3,
+        "name": "Playing Golf",
+        "range": "15 year - 18 Year",
+        "duration": 30,
+        "img": "https://play-lh.googleusercontent.com/F4zEJKeoY45Ca6aZuSQVyB05shBtu7_ETrJyYebn8-onurq8orvqyIllf49qj6xGqmI"
+    },
+    {
+        "id": 4,
+        "name": "Playing TT",
+        "range": "15 year - 18 Year",
+        "duration": 30,
+        "img": "https://images.crazygames.com/tabletennisworldtourb.png?auto=format,compress&q=75&cs=strip"
+    },
+    {
+        "id": 5,
+        "name": "Playing Badminton",
+        "range": "15 year - 18 Year",
+        "duration": 30,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmr7jYfJl3qnXDe1S2MVk12r4iKOg9Q5LUuX6_K1EvbcYGGi9-4nKldUXpblNZbsFKh1o&usqp=CAU"
+    },
+    {
+        "id": 6,
+        "name": "Playing Footbal",
+        "range": "15 year - 18 Year",
+        "duration": 30,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDpbVOFNrloBCMUIs_BxsulG-Yop9Z16zRuNZ2XcYDpeEzhjJbHZqxvCLkLxRSD6ROmVI&usqp=CAU"
+    }
+]
