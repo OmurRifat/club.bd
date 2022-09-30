@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header-content'>
-            <h2>CLUB DOT BANGLADESH</h2>
+            <h1>CLUB DOT BANGLADESH</h1>
         </div>
     );
 };

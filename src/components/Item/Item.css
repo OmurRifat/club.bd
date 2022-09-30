@@ -1,0 +1,9 @@
+div {
+    color: #242B2E;
+}
+
+.item-container {
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
