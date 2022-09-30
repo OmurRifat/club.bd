@@ -1,14 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Profile.css';
 import img from '../../images/Rifat.jpg';
 import toast, { Toaster } from 'react-hot-toast';
+import { addToDb, showDb } from '../../utilities/oneTimeDb';
 
 const Profile = ({ duration, gap }) => {
     // const duration = props.duration;
-    const [breaktime, setBreaktime] = useState(0);
     const { a, b, c, d } = gap;
+    const [breaktime, setBreaktime] = useState(0);
+    useEffect(() => {
+        setBreaktime(showDb);
+    }, [])
     const handleBreak = (time) => {
         setBreaktime(time);
+        addToDb(time)
     }
     const closeGame = () => {
         toast.success("Your Are Done", {
