@@ -35,10 +35,10 @@ const Profile = ({ duration, gap }) => {
             </div>
             <h3>Add A Break</h3>
             <div className="user-break">
-                <p onClick={ () => { handleBreak(a) } }>{ a }s</p>
-                <p onClick={ () => { handleBreak(b) } }>{ b }s</p>
-                <p onClick={ () => { handleBreak(c) } }>{ c }s</p>
-                <p onClick={ () => { handleBreak(d) } }>{ d }s</p>
+                <button onClick={ () => { handleBreak(a) } }>{ a }s</button>
+                <button onClick={ () => { handleBreak(b) } }>{ b }s</button>
+                <button onClick={ () => { handleBreak(c) } }>{ c }s</button>
+                <button onClick={ () => { handleBreak(d) } }>{ d }s</button>
             </div>
             <h3>Exercise Details</h3>
             <div className="exercise-detail">
@@ -49,7 +49,7 @@ const Profile = ({ duration, gap }) => {
                 <h5>Break time :</h5>
                 <p>{ breaktime }s</p>
             </div>
-            <button>Game Over</button>
+            <button className='over-btn'>Game Over</button>
         </div>
     );
 };

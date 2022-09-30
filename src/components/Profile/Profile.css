@@ -39,9 +39,10 @@
     justify-content: space-around;
     border-radius: 10px;
     margin-inline: 10px;
+    padding-block: 10px;
 }
 
-.user-break p {
+.user-break button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,6 +51,12 @@
     border-radius: 50%;
     background-color: white;
     cursor: pointer;
+    border: 0px;
+}
+
+.user-break button:focus {
+    background-color: #3944F7;
+    color: white;
 }
 
 .exercise-detail {
@@ -62,7 +69,7 @@
     margin-bottom: 20px;
 }
 
-.user-info button {
+.over-btn {
     width: 90%;
     padding-block: 10px;
     background-color: #3943f7ad;
