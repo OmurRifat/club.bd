@@ -18,3 +18,23 @@
     width: 400px;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 767px) {
+    .questions {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 5px;
+        margin-block: 50px;
+    }
+
+    .questions p {
+        padding-inline: 5px;
+    }
+
+    .questions img {
+        margin: 5px;
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
