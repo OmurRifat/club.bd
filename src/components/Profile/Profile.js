@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Profile.css';
 import img from '../../images/Rifat.jpg';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Profile = ({ duration, gap }) => {
     // const duration = props.duration;
@@ -9,7 +10,11 @@ const Profile = ({ duration, gap }) => {
     const handleBreak = (time) => {
         setBreaktime(time);
     }
-
+    const closeGame = () => {
+        toast.success("Your Are Done", {
+            autoClose: 3000
+        })
+    }
     return (
         <div className='user-info'>
             <div className="display-user">
@@ -49,7 +54,23 @@ const Profile = ({ duration, gap }) => {
                 <h5>Break time :</h5>
                 <p>{ breaktime }s</p>
             </div>
-            <button className='over-btn'>Game Over</button>
+            <button className='over-btn' onClick={ closeGame }>Game Over</button>
+            <Toaster
+                containerStyle={ {
+                    top: 300,
+                    left: 50,
+                } }
+                toastOptions={ {
+                    className: '',
+                    style: {
+                        background: '#3944F7',
+                        padding: '80px 100px',
+                        color: 'white',
+                        fontSize: '25px',
+                        fontWeight: '700'
+                    },
+                } }
+            />
         </div>
     );
 };
