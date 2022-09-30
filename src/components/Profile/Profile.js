@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Profile.css';
 import img from '../../images/Rifat.jpg';
 
 const Profile = ({ duration, gap }) => {
     // const duration = props.duration;
+    const [breaktime, setBreaktime] = useState(0);
     const { a, b, c, d } = gap;
     const handleBreak = (time) => {
-        console.log("i am also working there...", time)
+        setBreaktime(time);
     }
 
     return (
@@ -46,7 +47,7 @@ const Profile = ({ duration, gap }) => {
             </div>
             <div className="exercise-detail">
                 <h5>Break time :</h5>
-                <p>15s</p>
+                <p>{ breaktime }s</p>
             </div>
             <button>Game Over</button>
         </div>
