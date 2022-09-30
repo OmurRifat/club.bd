@@ -1,0 +1,84 @@
+.user-info {
+    background-color: white;
+    border-radius: 10px;
+    margin-inline: 30px;
+    height: 100%;
+
+}
+
+.display-user {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.display-user img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-inline: 20px;
+}
+
+.display-user h4 {
+    margin-block: 2px;
+}
+
+.user-details {
+    background-color: #F2F4FA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-inline: 10px;
+    margin-block: 10px;
+}
+
+.user-break {
+    background-color: #F2F4FA;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-inline: 10px;
+}
+
+.user-break p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.exercise-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-inline: 10px;
+    background-color: #F2F4FA;
+    margin-bottom: 20px;
+}
+
+.user-info button {
+    width: 90%;
+    padding-block: 10px;
+    background-color: #3943f7ad;
+    border: 0px;
+    border-radius: 10px;
+    color: #161a1c;
+    font-size: 18px;
+    font-weight: 500;
+    margin-inline: 10px;
+}
+
+.user-info button:hover {
+    background-color: #3944F7;
+    color: white;
+    transition-delay: 100ms;
+}
+
+.user-info h3 {
+    margin-left: 10px;
+}

@@ -7,3 +7,31 @@ div {
     background-color: white;
     border-radius: 10px;
 }
+
+.item-details {
+    padding: 10px 30px;
+}
+
+.item-container img {
+    height: 150px;
+    width: 350px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.item-container button {
+    width: 100%;
+    padding-block: 10px;
+    background-color: #3943f7ad;
+    border: 0px;
+    border-radius: 10px;
+    color: #161a1c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item-container button:hover {
+    background-color: #3944F7;
+    color: white;
+    transition-delay: 100ms;
+}
