@@ -5,6 +5,9 @@ import img from '../../images/Rifat.jpg';
 const Profile = ({ duration, gap }) => {
     // const duration = props.duration;
     const { a, b, c, d } = gap;
+    const handleBreak = (time) => {
+        console.log("i am also working there...", time)
+    }
 
     return (
         <div className='user-info'>
@@ -31,10 +34,10 @@ const Profile = ({ duration, gap }) => {
             </div>
             <h3>Add A Break</h3>
             <div className="user-break">
-                <p>{ a }s</p>
-                <p>{ b }s</p>
-                <p>{ c }s</p>
-                <p>{ d }s</p>
+                <p onClick={ () => { handleBreak(a) } }>{ a }s</p>
+                <p onClick={ () => { handleBreak(b) } }>{ b }s</p>
+                <p onClick={ () => { handleBreak(c) } }>{ c }s</p>
+                <p onClick={ () => { handleBreak(d) } }>{ d }s</p>
             </div>
             <h3>Exercise Details</h3>
             <div className="exercise-detail">
